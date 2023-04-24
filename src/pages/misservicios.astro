@@ -1,0 +1,46 @@
+---
+import Card from "../components/Card.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mis servicios</title>
+    </head>
+    <body>
+        <h1>Mis servicios</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            voluptate odit consectetur fugiat cupiditate, voluptatem molestias
+            reiciendis est saepe esse officiis quo vitae, velit quaerat culpa ab
+            ducimus quasi nulla.
+        </p>
+
+        <Card title="Hola Mundo" content="prueba content" />
+        <Card title="Programación" content="servicios" />
+        <Card title="Diseño" content="diseño offf" />
+        <Card
+            title="Asistencia profesional"
+            content="se ofrece asistencia profesional"
+        />
+        <Card />
+        <Card />
+        <Card />
+        <Card content='contenido no default'/>
+        <style>
+            body {
+                background-color: #202020;
+                color: white;
+            }
+            .title {
+                color: skyblue;
+            }
+            .danger {
+                color: red;
+            }
+        </style>
+    </body>
+</html>
